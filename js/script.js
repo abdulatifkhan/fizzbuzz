@@ -22,6 +22,6 @@ elFizzBuzzForm.addEventListener('submit', function (evt) {
     return elFizzBuzzResult.textContent = 'buzz';
   }
   else {
-    return elFizzBuzzResult.textContent = 'bo\'linmaydi';
+    return elFizzBuzzResult.textContent = 'It is not divided this number';
   }
 })

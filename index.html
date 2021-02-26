@@ -5,21 +5,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>fizzbuzz</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1 class="fizzbuzz-heading">FizzBuzz</h1>
+
+  <div class="container">
+
+    <h1 class="fizzbuzz-heading">FizzBuzz</h1>
+
 
     <form class="fizzbuzz-form form" action="http://echo.htmlacademy.ru" method="POST">
 
-      <label class="form__label" for="number-id">write the number</label>
-
-      <input class="form__input" id="number-id" name="Number" type="number" placeholder="Enter number" autocomplete="off" required>
+      <div class="form__inner">
+        <label class="form__label" for="number-id">write the number
+        </label>
+        <input class="form__input" id="number-id" name="Number" type="number" placeholder="Enter number" autocomplete="off" aria-label="" required>
+      </div>
 
       <button class="form__button">check</button>
 
     </form>
-    
+      
     <p class="form-result"></p>
+
+  </div>
 
 </body>
 

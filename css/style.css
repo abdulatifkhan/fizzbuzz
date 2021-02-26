@@ -1,0 +1,70 @@
+.container {
+  max-width: 1000px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 50px;
+  border-radius: 50px;
+  background-color: #fbddf6;
+}
+
+.fizzbuzz-heading {
+  margin: 0;
+  text-align: center;
+  color: #03a9f4;
+  font-size: 36px;
+}
+
+.form__label {
+  width: 200px;
+  display: block;
+  padding: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: bold;
+  text-align: center;
+  color: #7daf42;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form__input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+.form__input:focus {
+  padding: 5px;
+  border: 1px solid #555;
+}
+
+.form__button {
+  display: block;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #7daf42;
+  border: 0;
+}
+
+.form__button:hover {
+  background-color: rgba(125, 175, 66, 0.75);
+  transition: all 0.3s ease;
+}
+
+
+.form-result {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #7daf42;
+}
