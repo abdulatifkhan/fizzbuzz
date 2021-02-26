@@ -7,12 +7,20 @@
   <title>fizzbuzz</title>
 </head>
 <body>
-  <h1>FizzBuzz</h1>
-    <form action="http://echo.htmlacademy.ru" method="post">
-      <label for="number-id">write the number</label>
-      <input id="number-id" name="Number" type="number">
-      <button>check</button>
+  <h1 class="fizzbuzz-heading">FizzBuzz</h1>
+
+    <form class="fizzbuzz-form form" action="http://echo.htmlacademy.ru" method="POST">
+
+      <label class="form__label" for="number-id">write the number</label>
+
+      <input class="form__input" id="number-id" name="Number" type="number" placeholder="Enter number" autocomplete="off" required>
+
+      <button class="form__button">check</button>
+
     </form>
+    
+    <p class="form-result"></p>
+
 </body>
 
   <script src="js/script.js"></script>
